@@ -180,7 +180,7 @@ ul li a:hover {
 
 @media only screen and (max-width:688px) {
     .header-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .i-am {
         font-size: 0.8em;
@@ -193,13 +193,13 @@ ul li a:hover {
         padding: 0px;
         margin: 0px;
     }
-    .HHH {
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 
 /*----------------tablat--------------*/
 
-@media only screen and (min-width: 600px) and (max-width:992px) {}
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
+}
