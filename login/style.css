@@ -1,0 +1,205 @@
+body {
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* my own start*/
+
+.bleak-background-color {
+    background: #262626;
+}
+
+
+/* my own end*/
+
+
+/* first page */
+
+.full-navbar {
+    background: #262626;
+    transition: all .5s ease;
+}
+
+ul li a:hover {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.logo h1 {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.navbar-items {
+    font-weight: 500;
+}
+
+.i-am {
+    font-size: 1.8em;
+    font-weight: 300
+}
+
+.header-title {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.contact-me-btn {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    border: 0;
+    border-radius: 2px;
+    padding: 13px 20px;
+    transition: 1s;
+}
+
+.contact-me-btn:hover {
+    background: -webkit-linear-gradient(right, #ff8c05, #d61a5e);
+    transition: 1s;
+}
+
+.intro-image img {
+    box-shadow: 0px 0px 30px 0px #000000;
+    transition: .5s;
+}
+
+.first-page {}
+
+
+/* second page */
+
+.second-p-h1 {
+    font-weight: 900;
+}
+
+
+/* third page */
+
+.head-title {
+    font-weight: 900;
+}
+
+.skill {
+    background: -webkit-linear-gradient(right, #ff8c05, #d61a5e);
+}
+
+
+/* fourth page */
+
+.sadow {
+    box-shadow: 0px 0px 30px 0px #000000;
+    transition: .5s;
+}
+
+.sadow:hover {
+    box-shadow: 0px 0px 10px 0px #ff8c05;
+    transition: .5s;
+    padding: 3px;
+    background-color: #262626;
+}
+
+.fourth-page {
+    filter: blur(0px);
+    transition: .5s;
+}
+
+.fourth-page:hover {
+    filter: blur(0px);
+    transition: .5s;
+}
+
+
+/* fourth page */
+
+.card-h2-tag {
+    background: -webkit-linear-gradient(right, #ff8c05, #d61a5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.card-h2-tag:hover {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.forms {
+    background-color: #262626;
+    border: none;
+    border-bottom: 1px solid #535353;
+}
+
+.forms:hover {
+    border: none;
+    border-bottom: 1px solid #ff8c05;
+}
+
+.icon i {
+    color: white;
+    font-size: 2rem;
+}
+
+.icon i:hover {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s;
+}
+
+.footers a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.footers a:hover {
+    background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s;
+}
+
+
+/*------------------jquary---------------------*/
+
+
+/*------------------mobile----------------------*/
+
+@media only screen and (max-width:688px) {
+    .header-title {
+        font-size: 1.8rem;
+    }
+    .i-am {
+        font-size: 0.8em;
+    }
+    .contact-me-btn {
+        padding: 6px 10px;
+        transition: 1s;
+    }
+    .container {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+/*----------------tablat--------------*/
+
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
+}
